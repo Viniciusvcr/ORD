@@ -16,6 +16,7 @@ int main(){
 
 	printf("Escreva o nome do arquivo a ser criado: ");
 	fgets(nome_arquivo, TAM, stdin);
+	corta_string(nome_arquivo);
 	arq = fopen(nome_arquivo, "w");
 
 	printf("\nEscreva o sobrenome: ");
