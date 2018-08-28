@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdio_ext.h>
+#include <stdlib.h>
 
 #define TAM 20
 
@@ -20,7 +20,7 @@ int get_rec(FILE* arq, char* buffer){
 
 int main(){
 	FILE *input;
-	char nome_arquivo[TAM], buffer[TAM], *field;
+	char nome_arquivo[TAM], buffer[3*TAM], *field;
 	int rec_lenght;
 
 	printf("Escreva o nome do arquivo: ");
