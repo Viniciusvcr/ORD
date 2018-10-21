@@ -49,6 +49,7 @@
 
 12) 
     **Índice secundário profissão**:
+
     |    Chave    	| Ref 	|
     |:-----------:	|:---:	|
     |   Analista  	|  11 	|
@@ -57,6 +58,7 @@
     | Programador 	|  2  	|
 
     **Índice secundário nacionalidade**:
+
     |    Chave   	| Ref 	|
     |:----------:	|:---:	|
     |  Argentina 	|  3  	|
@@ -65,6 +67,7 @@
     |  Paraguaia 	|  5  	|
 
     **Lista Invertida**:
+    
     | Chave 	| Prox.Profissão 	| ProxNacionalidade 	|
     |:-----:	|:--------------:	|:-----------------:	|
     |  2050 	|       -1       	|         -1        	|
