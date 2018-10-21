@@ -25,6 +25,7 @@
 8) A finalidade do uso da lista invertida é a implementação de buscas por palavras-chave em conjuntos de documentos. Com esse tipo de lista, não precisamos buscar em todos os documentos por uma ocorrência já que temos cada palavra-chave ligada a uma lista de documentos nos quais ela aparece.
 
 9) Índice secundário:
+
     |   Chave   	| Ref 	|
     |:---------:	|:---:	|
     | Beethoven 	|  2  	|
@@ -33,6 +34,7 @@
     | Prokofiev 	|  4  	|
 
     Lista invertida:
+
     |   Chave  	| Prox 	|
     |:--------:	|:----:	|
     | COL31809 	|  -1  	|
@@ -67,7 +69,7 @@
     |  Paraguaia 	|  5  	|
 
     **Lista Invertida**:
-    
+
     | Chave 	| Prox.Profissão 	| ProxNacionalidade 	|
     |:-----:	|:--------------:	|:-----------------:	|
     |  2050 	|       -1       	|         -1        	|
